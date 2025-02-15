@@ -1,0 +1,21 @@
+{
+    "name": "vendor/oddeven-checker",
+    "description": "Library sederhana untuk mengecek bilangan ganjil atau genap.",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "OddEvenChecker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "vendor/oddeven-checker": "dev-main"
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "C:/xampp8/htdocs/OddEvenChecker"
+        }
+    }
+}
